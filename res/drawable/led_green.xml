@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:state_checked="true" 
+      android:drawable="@drawable/led_green_on" /> <!-- checked --> 
+<item android:state_checked="false" 
+      android:drawable="@drawable/led_green_off" /> <!-- unchecked --> 
+<item android:state_focused="true"
+      android:drawable="@drawable/led_green_on" />    <!--on focus--> 
+<item android:drawable="@drawable/led_green_off" /> <!-- default --> 
+</selector>
